@@ -46,8 +46,16 @@ practice before application
 
 综上看， 即便graphql不是银弹， 但它的确符合我们现阶段业务开发的需求， 所以想通过此项目完成学习并掌握graphql工具集， 然后小规模应用到项目中去，如果反馈不错的话， 对所有api进行代理。
 
-#### 搭建基本的框架（前后端）
+#### 搭建基本的框架（基于koa）
 
 #### 基本使用方法
 
 #### 场景代入
+
+#### 网络资源
+
+- [graphql入门](https://www.cnblogs.com/Wolfmanlq/p/9094418.html)
+
+- [基于koa的graphql实践](https://segmentfault.com/a/1190000012720317)
+
+- [Node.js 服务端实践之 GraphQL 初探](http://taobaofed.org/blog/2015/11/26/graphql-basics-server-implementation/)
