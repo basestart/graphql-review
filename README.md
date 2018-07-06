@@ -59,7 +59,7 @@ practice before application
 
 - service为后端服务脚本
 
-- admin 为管理系统
+- src 为管理系统
 
 - blog为前端展示页面
 
