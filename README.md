@@ -55,6 +55,14 @@ practice before application
 
 #### 为了学习koa， graphql
 
+### 项目结构
+
+- service为后端服务脚本
+
+- admin 为管理系统
+
+- blog为前端展示页面
+
 ### 项目流程
 
 - 搭建前后端开发框架， 配置数据库
@@ -63,7 +71,6 @@ practice before application
 - 数据库设计
  - mysql
 - 界面设计
- - 
 - graphql支持
 
 
