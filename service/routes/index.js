@@ -11,9 +11,26 @@ router.get('/string', async (ctx, next) => {
 })
 
 router.get('/json', async (ctx, next) => {
-  ctx.body = {
-    title: 'koa2 json'
-  }
+  let data = await new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve({
+        title: 'koa2 json'
+      })
+    }, 1000)
+  })
+  ctx.body = data;
+})
+
+router.get('/type', async (ctx, next) => {
+  ctx.body = [{
+    type: 'news'
+  }, {
+    type: 'html'
+  }, {
+    type: 'javascript'
+  }, {
+    type: 'css'
+  }]
 })
 
 module.exports = router
