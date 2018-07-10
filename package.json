@@ -8,6 +8,7 @@
     "build_admin": "node scripts/build.js",
     "test_admin": "node scripts/test.js --env=jsdom",
     "start_service": "node service/bin/www",
+    "start_apollo": "node apollo/index.js",
     "dev_service": "./node_modules/.bin/nodemon service/bin/www",
     "prd_service": "pm2 start service/bin/www",
     "test_service": "echo \"Error: no test specified\" && exit 1"
